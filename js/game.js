@@ -474,7 +474,7 @@ function randomPosBomb() {
 }
 
 function startGame() {
-  window.location.href = "index.html";
+  window.location.href = "entrance.html";
 }
 
 function audioPlay(name) {
