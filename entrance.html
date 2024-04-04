@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake JS</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body style="margin: 0">
+    <audio id="myAudio" autoplay loop>
+      <source src="./audio/sountrack.mp3" type="audio/mp3" />
+    </audio>
+
+    <div id="wrapper">
+      <div class="info">
+        <ul>
+          <li>Skor Kamu: <span id="score">0</span></li>
+          <li>Skor Terbaik: <span id="best-score">0</span></li>
+          <li>
+            Level: <span id="difficulty">Easy</span>
+            <button id="changeDif">Change</button>
+          </li>
+        </ul>
+      </div>
+      <canvas style="display: block" id="canvas"
+        >Your browser is not supported canvas</canvas>
+    </div>
+    <script src="./js/game.js"></script>
+  </body>
+</html>
