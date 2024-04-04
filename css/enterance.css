@@ -1,0 +1,63 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Press Start 2P', cursive;
+    background-image: url('backgroundsnake.jpg'); /* Fix the background-image property */
+  background-size: cover; /* Set background size to cover the entire body */
+  background-repeat: no-repeat;
+  background-color: #8DB202;
+}
+  
+  .button {
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 500px;
+    margin-left: 500px;
+    background-color: #6F8A06; /* Green background color */
+    color: #fff;
+    border: 2px solid #3f4b0e; /* Green border */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    font-size: 16px;
+    background-color: #6F8A06;
+    border: 2px solid #3f4b0e; /* Green border */
+    cursor: pointer;
+
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+  .container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 2px 2px #000;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00ff00;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #00e600;
+    border: #00e600;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  

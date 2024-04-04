@@ -1,0 +1,78 @@
+
+body {
+	font-family: 'Press Start 2P', cursive;
+	background-color: #8DB202;
+	background-image: url('backgroundindexrev.png'); /* Fix the background-image property */
+
+	color: #fff;
+	overflow: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+#wrapper {
+	font-family: 'Press Start 2P', cursive;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	max-width: 1440px;
+	height: 100%;
+	padding: 10px;
+	margin: 0 auto;
+}
+.info {
+	max-width: 600px;
+	justify-self: flex-start;
+	font-family: arial;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.info ul {
+	font-family: 'Press Start 2P', cursive;
+
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.info ul li {
+	list-style: none;
+}
+.info ul li:not(:last-child) {
+	margin-right: 20px;
+}
+#changeDif {
+	font-family: 'Press Start 2P', cursive;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6F8A06; /* Green background color */
+    color: #fff;
+    border: 2px solid #3f4b0e; /* Green border */
+}
+
+canvas#canvas {
+	background-color: #000000;
+}
+
+@media (max-width: 650px) {
+	.info {
+		font-size: 18px;
+	}
+	.info ul {
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+	}
+	.info ul li:not(:last-child) {
+		margin: 0 0 10px 0;
+	}
+	#changeDif {
+		font-size: 16px;
+	}
+}
